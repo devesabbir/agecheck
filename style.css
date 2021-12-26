@@ -11,6 +11,12 @@
 button#button {display: block;padding: 10px;background: #000100;color: orange;font-size: 25px;margin-top: 15px;border-radius: 10px;border: none;outline: none;font-weight: 600;text-transform: uppercase;}
 .card input[type="text"], input[type="number"] {width: 100%;position: relative;padding: 15px;margin: 8px 0px;background: #fff;border-radius: 10px;outline: none;box-shadow: inset 0px 0px 40px 10px #dbf5ff;border: none;color: orange !important;font-weight: 500;}
 .card input[type="radio"] { width: 30px; }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+     
+    -webkit-appearance: none; 
+      margin: 0; 
+}
 .card label { display: inline-block; }
 .output {padding: 10px 0px;}
 .output p {padding: 20px 30px;border-radius: 10px;color: #fff;}
