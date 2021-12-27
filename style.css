@@ -1,44 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: Poppins, sans-serif; }
-.card input { width: 100%; position: relative; }
-.card input::placeholder{color: orange !important;}
-.card {width: 372px;padding: 50px 45px;margin: auto;box-shadow: rgb(221, 221, 221) 0px 0px 10px 10px;border-radius: 25px;transform: translate(-50%, -50%);position: absolute;top: 50%;left: 50%;}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.card input {
+    width: 100%;
+    position: relative;
+}
+
+.card input::placeholder {
+    color: orange !important;
+}
+
+.card {
+    width: 372px;
+    padding: 50px 45px;
+    margin: auto;
+    box-shadow: rgb(221, 221, 221) 0px 0px 10px 10px;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 .card span {
     display: inline-block;
     padding: 0px 10px;
 }
-.card h1 { text-align: center; font-size: 30px; font-weight: 700; text-transform: uppercase; }
-button#button {display: block;padding: 10px;background: #000100;color: orange;font-size: 25px;margin-top: 15px;border-radius: 10px;border: none;outline: none;font-weight: 600;text-transform: uppercase;}
-.card input[type="text"], input[type="number"] {width: 100%;position: relative;padding: 15px;margin: 8px 0px;background: #fff;border-radius: 10px;outline: none;box-shadow: inset 0px 0px 40px 10px #dbf5ff;border: none;color: orange !important;font-weight: 500;}
-.card input[type="radio"] { width: 30px; }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-     
-    -webkit-appearance: none; 
-      margin: 0; 
+
+.card h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-input[type=number]{
+button#button {
+    display: block;
+    padding: 10px;
+    background: #000100;
+    color: orange;
+    font-size: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card input[type="text"],
+input[type="number"] {
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    margin: 8px 0px;
+    background: #fff;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset 0px 0px 40px 10px #dbf5ff;
+    border: none;
+    color: orange !important;
+    font-weight: 500;
+}
+
+.card input[type="radio"] {
+    width: 30px;
+    appearance: none !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+
     -webkit-appearance: none;
-    -moz-appearance: none;
-         appearance: none;
+    margin: 0;
 }
 
 input[type=number] {
-    -moz-appearance:textfield;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 
-.card label {display: inline-block;color: #ff874e;font-weight: 500;}
-.output {padding: 10px 0px;max-width: 500px;}
-.output p {padding: 20px 30px;border-radius: 10px;color: #fff;}
+.card label {
+    display: inline-block;
+    color: #ff874e;
+    font-weight: 500;
+}
+
+.output {
+    padding: 10px 0px;
+    max-width: 500px;
+}
+
+.output p {
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
 
 
 input[type='radio']:after {
     width: 18px;
     height: 18px;
     border-radius: 15px;
-    top: -2px;
+    top: 3px;
     left: 7px;
     position: relative;
     background-color: #d1d3d1;
@@ -52,7 +128,7 @@ input[type='radio']:checked:after {
     width: 18px;
     height: 18px;
     border-radius: 15px;
-    top: -2px;
+    top: 3px;
     left: 8px;
     position: relative;
     background-color: #ffa500;
