@@ -80,7 +80,7 @@ let ageCheck = (age, gender) => {
       };
     } else if (gender == "female") {
       return {
-        Status: ".tumi naki pori !",
+        Status: ".tumi manush naki pori !",
         classs: "info",
       };
     }
